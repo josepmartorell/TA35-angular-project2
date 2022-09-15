@@ -1,0 +1,17 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<router-outlet></router-outlet>
+<body background="cronografo.jpg">
+    <div style="text-align: center">
+        <h3 style="color: white">{{message}}</h3>
+        <h1 style="color: red">Cronómetro</h1>
+        <app-cronometro inicio="15" (multiplo10)="actualizar($event)"></app-cronometro>
+        <h2 style="color:yellow">Evento</h2>
+    </div>
+</body>
