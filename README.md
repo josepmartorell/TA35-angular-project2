@@ -1,3 +1,2 @@
 # TA35-angular-project2 cron
-Cronómetro
-https://main.dj5az3h1ym6us.amplifyapp.com
+[AWS Deploy](https://main.d1vvld9y17w5y8.amplifyapp.com)
